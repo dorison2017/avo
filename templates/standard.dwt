@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="Content-Type" content="text/html; charset=UTF-8">
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet"> 
+	<link rel="stylesheet" href="/styles/reset.css">
+	<link rel="stylesheet" href="/styles/cssmenu.css">
+	<link rel="stylesheet" href="/styles/site.css">
+	<link rel="stylesheet" href="/styles/font-awesome.css">
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
+  	<!-- TemplateBeginEditable name="doctitle" -->
+	<title>AVO Health | editme</title>
+	<!-- TemplateEndEditable -->
+	<!-- TemplateBeginEditable name="head" -->
+	<meta name="Description" content="AVO Health">
+	<!-- TemplateEndEditable -->
+</head>
+
+<body>
+	<header>
+		<menu>
+			<?php require_once('code/topmenu.php'); ?>
+		</menu>
+		<banner>
+			<!-- TemplateBeginEditable name="slideshow" -->
+			<slideshow>
+				<img class="cross-fade banner-image active" data-index="1" title="image 1 title" src="/images/banner1.jpg" />
+			</slideshow>
+			<div id="slideshow-images" class="hidden">
+				<span data-title="image 2 title" data-src="/images/banner2.jpg"></span>
+				<span data-title="image 3 title" data-src="/images/banner3.jpg"></span>
+				<span data-title="image 4 title" data-src="/images/banner4.jpg"></span>
+				<span data-title="image 5 title" data-src="/images/banner5.jpg"></span>
+				<span data-title="image 6 title" data-src="/images/banner6.jpg"></span>
+				<span data-title="image 7 title" data-src="/images/banner7.jpg"></span>
+			</div>
+			<!-- TemplateEndEditable -->
+			<a class="logo-wrapper" href="/">
+				<img class="logo" src="/images/logo.png" />
+				<span class="logo-caption">Easing the burden</span>
+			</a>
+		</banner>
+		<tagline>
+			<!-- TemplateBeginEditable name="tagline" -->
+			AVO Health Limited
+			<!-- TemplateEndEditable -->
+		</tagline>
+	</header>
+	<content>
+	<ul class="sidemenu"></ul>
+	<!-- TemplateBeginEditable name="content" -->
+	<!-- TemplateEndEditable -->
+	</content>
+	<footer>
+		&copy; <?php echo date("Y"); ?> AVO Health
+	</footer>
+</body>
+<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+<script src="/scripts/cssmenu.js"></script>
+<script src="/scripts/avo.js"></script>
+<!-- TemplateBeginEditable name="scripts" -->
+<!-- TemplateEndEditable -->
+</html>
